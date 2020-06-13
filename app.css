@@ -1,0 +1,18 @@
+body { font-family: sans-serif; }
+.board {
+    
+    width: 306px; background: black;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 3px;
+    display: grid;
+    
+    cursor: pointer;
+}
+.box {
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg');; display: flex; justify-content: center; align-items: center;
+    font-size: 2rem; color: #222;
+}
+.box:hover {
+    background: #fafafa;
+}
